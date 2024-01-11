@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		965132562B504B3000AA2BED /* Angola_ProvinceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132552B504B3000AA2BED /* Angola_ProvinceApp.swift */; };
+		9651325A2B504B3400AA2BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965132592B504B3400AA2BED /* Assets.xcassets */; };
+		9651325D2B504B3400AA2BED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9651325C2B504B3400AA2BED /* Preview Assets.xcassets */; };
+		965132672B504B3400AA2BED /* Angola_ProvinceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132662B504B3400AA2BED /* Angola_ProvinceTests.swift */; };
+		965132712B504B3400AA2BED /* Angola_ProvinceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132702B504B3400AA2BED /* Angola_ProvinceUITests.swift */; };
+		965132732B504B3400AA2BED /* Angola_ProvinceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132722B504B3400AA2BED /* Angola_ProvinceUITestsLaunchTests.swift */; };
+		965132862B504BD100AA2BED /* ProvinceDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132852B504BD100AA2BED /* ProvinceDataService.swift */; };
+		965132882B504BEB00AA2BED /* Utilis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132872B504BEB00AA2BED /* Utilis.swift */; };
+		9651328A2B504BF200AA2BED /* RouterGoHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132892B504BF200AA2BED /* RouterGoHome.swift */; };
+		9651328C2B504BF700AA2BED /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651328B2B504BF700AA2BED /* NetworkingManager.swift */; };
+		9651328E2B504C0A00AA2BED /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651328D2B504C0A00AA2BED /* MockData.swift */; };
+		965132902B504C1100AA2BED /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651328F2B504C1100AA2BED /* Extension+View.swift */; };
+		965132922B504C1600AA2BED /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132912B504C1600AA2BED /* TextModifier.swift */; };
+		965132942B504C4600AA2BED /* ProvinceAngolaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132932B504C4600AA2BED /* ProvinceAngolaViewModel.swift */; };
+		965132962B504C4B00AA2BED /* TocomeInHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132952B504C4B00AA2BED /* TocomeInHome.swift */; };
+		965132982B504C5D00AA2BED /* AngolaProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132972B504C5D00AA2BED /* AngolaProvince.swift */; };
+		9651329A2B504C6200AA2BED /* ViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132992B504C6200AA2BED /* ViewNavigation.swift */; };
+		965132A02B504D7F00AA2BED /* ProvinceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651329F2B504D7F00AA2BED /* ProvinceRowView.swift */; };
+		965132A22B504D8500AA2BED /* RectangleCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132A12B504D8500AA2BED /* RectangleCustom.swift */; };
+		965132A42B504D8A00AA2BED /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132A32B504D8A00AA2BED /* RoundedCorner.swift */; };
+		965132A62B504DAD00AA2BED /* HomeProvinceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132A52B504DAD00AA2BED /* HomeProvinceView.swift */; };
+		965132A82B504DC300AA2BED /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132A72B504DC300AA2BED /* DetailView.swift */; };
+		965132AA2B504DCC00AA2BED /* GroupBoxListMunicipality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132A92B504DCC00AA2BED /* GroupBoxListMunicipality.swift */; };
+		965132AE2B504DE900AA2BED /* OnbordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965132AD2B504DE900AA2BED /* OnbordingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		965132632B504B3400AA2BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9651324A2B504B3000AA2BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965132512B504B3000AA2BED;
+			remoteInfo = Angola_Province;
+		};
+		9651326D2B504B3400AA2BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9651324A2B504B3000AA2BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965132512B504B3000AA2BED;
+			remoteInfo = Angola_Province;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		965132522B504B3000AA2BED /* Angola_Province.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Angola_Province.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		965132552B504B3000AA2BED /* Angola_ProvinceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angola_ProvinceApp.swift; sourceTree = "<group>"; };
+		965132592B504B3400AA2BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9651325C2B504B3400AA2BED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		965132622B504B3400AA2BED /* Angola_ProvinceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Angola_ProvinceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		965132662B504B3400AA2BED /* Angola_ProvinceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angola_ProvinceTests.swift; sourceTree = "<group>"; };
+		9651326C2B504B3400AA2BED /* Angola_ProvinceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Angola_ProvinceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		965132702B504B3400AA2BED /* Angola_ProvinceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angola_ProvinceUITests.swift; sourceTree = "<group>"; };
+		965132722B504B3400AA2BED /* Angola_ProvinceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angola_ProvinceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		965132852B504BD100AA2BED /* ProvinceDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceDataService.swift; sourceTree = "<group>"; };
+		965132872B504BEB00AA2BED /* Utilis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilis.swift; sourceTree = "<group>"; };
+		965132892B504BF200AA2BED /* RouterGoHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterGoHome.swift; sourceTree = "<group>"; };
+		9651328B2B504BF700AA2BED /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		9651328D2B504C0A00AA2BED /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		9651328F2B504C1100AA2BED /* Extension+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		965132912B504C1600AA2BED /* TextModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
+		965132932B504C4600AA2BED /* ProvinceAngolaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceAngolaViewModel.swift; sourceTree = "<group>"; };
+		965132952B504C4B00AA2BED /* TocomeInHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TocomeInHome.swift; sourceTree = "<group>"; };
+		965132972B504C5D00AA2BED /* AngolaProvince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngolaProvince.swift; sourceTree = "<group>"; };
+		965132992B504C6200AA2BED /* ViewNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewNavigation.swift; sourceTree = "<group>"; };
+		9651329F2B504D7F00AA2BED /* ProvinceRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceRowView.swift; sourceTree = "<group>"; };
+		965132A12B504D8500AA2BED /* RectangleCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleCustom.swift; sourceTree = "<group>"; };
+		965132A32B504D8A00AA2BED /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		965132A52B504DAD00AA2BED /* HomeProvinceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProvinceView.swift; sourceTree = "<group>"; };
+		965132A72B504DC300AA2BED /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		965132A92B504DCC00AA2BED /* GroupBoxListMunicipality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupBoxListMunicipality.swift; sourceTree = "<group>"; };
+		965132AD2B504DE900AA2BED /* OnbordingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnbordingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9651324F2B504B3000AA2BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9651325F2B504B3400AA2BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965132692B504B3400AA2BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		965132492B504B3000AA2BED = {
+			isa = PBXGroup;
+			children = (
+				965132542B504B3000AA2BED /* Angola_Province */,
+				965132652B504B3400AA2BED /* Angola_ProvinceTests */,
+				9651326F2B504B3400AA2BED /* Angola_ProvinceUITests */,
+				965132532B504B3000AA2BED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		965132532B504B3000AA2BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965132522B504B3000AA2BED /* Angola_Province.app */,
+				965132622B504B3400AA2BED /* Angola_ProvinceTests.xctest */,
+				9651326C2B504B3400AA2BED /* Angola_ProvinceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965132542B504B3000AA2BED /* Angola_Province */ = {
+			isa = PBXGroup;
+			children = (
+				965132552B504B3000AA2BED /* Angola_ProvinceApp.swift */,
+				965132842B504B9000AA2BED /* View */,
+				965132832B504B8900AA2BED /* Model */,
+				965132822B504B7F00AA2BED /* ViewModel */,
+				965132812B504B7700AA2BED /* Extension */,
+				965132802B504B6A00AA2BED /* Utillis */,
+				9651327F2B504B5500AA2BED /* service */,
+				965132592B504B3400AA2BED /* Assets.xcassets */,
+				9651325B2B504B3400AA2BED /* Preview Content */,
+			);
+			path = Angola_Province;
+			sourceTree = "<group>";
+		};
+		9651325B2B504B3400AA2BED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9651325C2B504B3400AA2BED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		965132652B504B3400AA2BED /* Angola_ProvinceTests */ = {
+			isa = PBXGroup;
+			children = (
+				965132662B504B3400AA2BED /* Angola_ProvinceTests.swift */,
+			);
+			path = Angola_ProvinceTests;
+			sourceTree = "<group>";
+		};
+		9651326F2B504B3400AA2BED /* Angola_ProvinceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				965132702B504B3400AA2BED /* Angola_ProvinceUITests.swift */,
+				965132722B504B3400AA2BED /* Angola_ProvinceUITestsLaunchTests.swift */,
+			);
+			path = Angola_ProvinceUITests;
+			sourceTree = "<group>";
+		};
+		9651327F2B504B5500AA2BED /* service */ = {
+			isa = PBXGroup;
+			children = (
+				965132852B504BD100AA2BED /* ProvinceDataService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		965132802B504B6A00AA2BED /* Utillis */ = {
+			isa = PBXGroup;
+			children = (
+				965132872B504BEB00AA2BED /* Utilis.swift */,
+				965132892B504BF200AA2BED /* RouterGoHome.swift */,
+				9651328B2B504BF700AA2BED /* NetworkingManager.swift */,
+			);
+			path = Utillis;
+			sourceTree = "<group>";
+		};
+		965132812B504B7700AA2BED /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9651328D2B504C0A00AA2BED /* MockData.swift */,
+				965132912B504C1600AA2BED /* TextModifier.swift */,
+				9651328F2B504C1100AA2BED /* Extension+View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		965132822B504B7F00AA2BED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				965132932B504C4600AA2BED /* ProvinceAngolaViewModel.swift */,
+				965132952B504C4B00AA2BED /* TocomeInHome.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		965132832B504B8900AA2BED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				965132972B504C5D00AA2BED /* AngolaProvince.swift */,
+				965132992B504C6200AA2BED /* ViewNavigation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		965132842B504B9000AA2BED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9651329E2B504D6900AA2BED /* Onbording */,
+				9651329D2B504D6200AA2BED /* Detail */,
+				9651329C2B504D5A00AA2BED /* Home */,
+				9651329B2B504D4D00AA2BED /* components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9651329B2B504D4D00AA2BED /* components */ = {
+			isa = PBXGroup;
+			children = (
+				9651329F2B504D7F00AA2BED /* ProvinceRowView.swift */,
+				965132A12B504D8500AA2BED /* RectangleCustom.swift */,
+				965132A32B504D8A00AA2BED /* RoundedCorner.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		9651329C2B504D5A00AA2BED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				965132A52B504DAD00AA2BED /* HomeProvinceView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9651329D2B504D6200AA2BED /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				965132A72B504DC300AA2BED /* DetailView.swift */,
+				965132A92B504DCC00AA2BED /* GroupBoxListMunicipality.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		9651329E2B504D6900AA2BED /* Onbording */ = {
+			isa = PBXGroup;
+			children = (
+				965132AD2B504DE900AA2BED /* OnbordingView.swift */,
+			);
+			path = Onbording;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		965132512B504B3000AA2BED /* Angola_Province */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965132762B504B3400AA2BED /* Build configuration list for PBXNativeTarget "Angola_Province" */;
+			buildPhases = (
+				9651324E2B504B3000AA2BED /* Sources */,
+				9651324F2B504B3000AA2BED /* Frameworks */,
+				965132502B504B3000AA2BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Angola_Province;
+			productName = Angola_Province;
+			productReference = 965132522B504B3000AA2BED /* Angola_Province.app */;
+			productType = "com.apple.product-type.application";
+		};
+		965132612B504B3400AA2BED /* Angola_ProvinceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965132792B504B3400AA2BED /* Build configuration list for PBXNativeTarget "Angola_ProvinceTests" */;
+			buildPhases = (
+				9651325E2B504B3400AA2BED /* Sources */,
+				9651325F2B504B3400AA2BED /* Frameworks */,
+				965132602B504B3400AA2BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				965132642B504B3400AA2BED /* PBXTargetDependency */,
+			);
+			name = Angola_ProvinceTests;
+			productName = Angola_ProvinceTests;
+			productReference = 965132622B504B3400AA2BED /* Angola_ProvinceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9651326B2B504B3400AA2BED /* Angola_ProvinceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9651327C2B504B3400AA2BED /* Build configuration list for PBXNativeTarget "Angola_ProvinceUITests" */;
+			buildPhases = (
+				965132682B504B3400AA2BED /* Sources */,
+				965132692B504B3400AA2BED /* Frameworks */,
+				9651326A2B504B3400AA2BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9651326E2B504B3400AA2BED /* PBXTargetDependency */,
+			);
+			name = Angola_ProvinceUITests;
+			productName = Angola_ProvinceUITests;
+			productReference = 9651326C2B504B3400AA2BED /* Angola_ProvinceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9651324A2B504B3000AA2BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					965132512B504B3000AA2BED = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					965132612B504B3400AA2BED = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 965132512B504B3000AA2BED;
+					};
+					9651326B2B504B3400AA2BED = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 965132512B504B3000AA2BED;
+					};
+				};
+			};
+			buildConfigurationList = 9651324D2B504B3000AA2BED /* Build configuration list for PBXProject "Angola_Province" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 965132492B504B3000AA2BED;
+			productRefGroup = 965132532B504B3000AA2BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965132512B504B3000AA2BED /* Angola_Province */,
+				965132612B504B3400AA2BED /* Angola_ProvinceTests */,
+				9651326B2B504B3400AA2BED /* Angola_ProvinceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		965132502B504B3000AA2BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9651325D2B504B3400AA2BED /* Preview Assets.xcassets in Resources */,
+				9651325A2B504B3400AA2BED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965132602B504B3400AA2BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9651326A2B504B3400AA2BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9651324E2B504B3000AA2BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965132A22B504D8500AA2BED /* RectangleCustom.swift in Sources */,
+				965132562B504B3000AA2BED /* Angola_ProvinceApp.swift in Sources */,
+				965132A82B504DC300AA2BED /* DetailView.swift in Sources */,
+				965132AA2B504DCC00AA2BED /* GroupBoxListMunicipality.swift in Sources */,
+				965132922B504C1600AA2BED /* TextModifier.swift in Sources */,
+				965132942B504C4600AA2BED /* ProvinceAngolaViewModel.swift in Sources */,
+				9651328E2B504C0A00AA2BED /* MockData.swift in Sources */,
+				9651328A2B504BF200AA2BED /* RouterGoHome.swift in Sources */,
+				965132902B504C1100AA2BED /* Extension+View.swift in Sources */,
+				9651329A2B504C6200AA2BED /* ViewNavigation.swift in Sources */,
+				965132962B504C4B00AA2BED /* TocomeInHome.swift in Sources */,
+				965132AE2B504DE900AA2BED /* OnbordingView.swift in Sources */,
+				965132982B504C5D00AA2BED /* AngolaProvince.swift in Sources */,
+				965132862B504BD100AA2BED /* ProvinceDataService.swift in Sources */,
+				965132A62B504DAD00AA2BED /* HomeProvinceView.swift in Sources */,
+				9651328C2B504BF700AA2BED /* NetworkingManager.swift in Sources */,
+				965132A42B504D8A00AA2BED /* RoundedCorner.swift in Sources */,
+				965132A02B504D7F00AA2BED /* ProvinceRowView.swift in Sources */,
+				965132882B504BEB00AA2BED /* Utilis.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9651325E2B504B3400AA2BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965132672B504B3400AA2BED /* Angola_ProvinceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965132682B504B3400AA2BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965132732B504B3400AA2BED /* Angola_ProvinceUITestsLaunchTests.swift in Sources */,
+				965132712B504B3400AA2BED /* Angola_ProvinceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		965132642B504B3400AA2BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 965132512B504B3000AA2BED /* Angola_Province */;
+			targetProxy = 965132632B504B3400AA2BED /* PBXContainerItemProxy */;
+		};
+		9651326E2B504B3400AA2BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 965132512B504B3000AA2BED /* Angola_Province */;
+			targetProxy = 9651326D2B504B3400AA2BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		965132742B504B3400AA2BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		965132752B504B3400AA2BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		965132772B504B3400AA2BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Angola_Province/Preview Content\"";
+				DEVELOPMENT_TEAM = JP9F6KG68S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maurodeoliveira.Angola-Province";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		965132782B504B3400AA2BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Angola_Province/Preview Content\"";
+				DEVELOPMENT_TEAM = JP9F6KG68S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maurodeoliveira.Angola-Province";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9651327A2B504B3400AA2BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP9F6KG68S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maurodeoliveira.Angola-ProvinceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angola_Province.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Angola_Province";
+			};
+			name = Debug;
+		};
+		9651327B2B504B3400AA2BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP9F6KG68S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maurodeoliveira.Angola-ProvinceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angola_Province.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Angola_Province";
+			};
+			name = Release;
+		};
+		9651327D2B504B3400AA2BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP9F6KG68S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maurodeoliveira.Angola-ProvinceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Angola_Province;
+			};
+			name = Debug;
+		};
+		9651327E2B504B3400AA2BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP9F6KG68S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maurodeoliveira.Angola-ProvinceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Angola_Province;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9651324D2B504B3000AA2BED /* Build configuration list for PBXProject "Angola_Province" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965132742B504B3400AA2BED /* Debug */,
+				965132752B504B3400AA2BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965132762B504B3400AA2BED /* Build configuration list for PBXNativeTarget "Angola_Province" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965132772B504B3400AA2BED /* Debug */,
+				965132782B504B3400AA2BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965132792B504B3400AA2BED /* Build configuration list for PBXNativeTarget "Angola_ProvinceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9651327A2B504B3400AA2BED /* Debug */,
+				9651327B2B504B3400AA2BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9651327C2B504B3400AA2BED /* Build configuration list for PBXNativeTarget "Angola_ProvinceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9651327D2B504B3400AA2BED /* Debug */,
+				9651327E2B504B3400AA2BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9651324A2B504B3000AA2BED /* Project object */;
+}
