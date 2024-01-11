@@ -43,7 +43,6 @@ struct DetailView: View {
         }
         .scrollTargetLayout()
         .ignoresSafeArea()
-        .background(.gray.opacity(0.15))
     }
 }
 

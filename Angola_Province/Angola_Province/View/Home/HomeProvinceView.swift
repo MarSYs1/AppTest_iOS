@@ -48,7 +48,6 @@ struct HomeProvinceView: View {
                 viewModel.dataService.getProvince()
              }
             .toolbar(.hidden)
-            .background(.gray.opacity(0.10))
         }
     }
 }
